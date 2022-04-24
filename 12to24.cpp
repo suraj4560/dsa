@@ -1,3 +1,4 @@
+//12 hour format to 24 hour format 
 #include<iostream>
 #include<string>
 using namespace std;
@@ -21,25 +22,6 @@ string timeconversion(string s){
 }
 int main(){
     string s="12:45:54PM";
-    // string two=s.substr(0,2);
-    // cout<<two;
-    // int value =stoi(two);
-    // cout<<value;
-    // cout<<endl;
-    // if (s[8]=='P'){
-    //     value =value +12;
-    //     two=to_string(value);
-    //     cout<<two<<s.substr(2,6);
-    // }
-    // if (s[8]=='A'& two!="12"){
-    //     cout<<s.substr(0,8);
-    // }
-    // if (s[8]=='A'&& two =="12"){
-    //     two ="00";
-    //     cout<<two<<s.substr(2,6);
-    // }
-    // cout<<endl;
-    
     string ans=timeconversion(s);
     cout<<ans;
     
